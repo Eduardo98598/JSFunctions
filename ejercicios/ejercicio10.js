@@ -31,9 +31,14 @@ l2[i]=l[i];
  //var cont2=0;
 
 do 
-{
+{   if(l2[0]==undefined)
+    {
+        l2.splice(0,1) 
+    }
+
     if(l2[cont]==undefined)
     {
+    
     l2.splice(cont,1)
     
     //cont2++;
